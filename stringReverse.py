@@ -4,7 +4,5 @@
 stringReverse.stringRev(string)
 '''
 def stringRev(string):
-    newstring = []
-    for c in range(len(string)):
-        newstring.insert(0, string[c])
-    return ("".join(newstring)) #returns the joined string
+    return (string.reverse()) #returns the joined string
+stringRev("hello")
