@@ -1,4 +1,5 @@
-original = input("enter string")
+# program to count number of words based on how many spaces are in a string
+original = input("enter string: ")
 space = 0
 string = original.lower()
 for c in range(len(string)):

@@ -1,4 +1,6 @@
-original = input("enter string")
+""" program to count how many vowels are in a string and then
+ count how many of each there is"""
+original = input("enter string: ")
 a, e, i, o, u = 0, 0, 0, 0, 0
 vowellist = ""
 vowels = "aeiou"
