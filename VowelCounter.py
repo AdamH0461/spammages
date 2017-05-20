@@ -1,4 +1,3 @@
-# program to count number of vowels
 original = input("enter string: ")
 a, e, i, o, u = 0
 vowellist = ""
@@ -22,4 +21,4 @@ for c in range(string.len):
         u += 1
         vowellist += "u"
 print(a, "as were found \n", e, "es were foundn\n", i, "is were found"
-print(o, "os were found ")
+print(o, "os were found")
