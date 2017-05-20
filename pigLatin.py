@@ -1,7 +1,7 @@
 # program to take first constonant, move it to the end and add "ay"
 original = input("enter string")
 pyg = "ay"
-if original.isAlpha():
+if original.isalpha():
     string = original.lower()
     first = string[0]
     if first in "aeiou":
