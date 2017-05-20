@@ -1,5 +1,5 @@
-original = input("enter string: ")
-a, e, i, o, u = 0
+original = input("enter string")
+a, e, i, o, u = 0, 0, 0, 0, 0
 vowellist = ""
 vowels = "aeiou"
 string = original.lower()
@@ -20,5 +20,6 @@ for c in range(string.len):
     elif char == "u":
         u += 1
         vowellist += "u"
-print(a, "as were found \n", e, "es were foundn\n", i, "is were found"
-print(o, "os were found")
+print(a, " as were found \n", e, " es were foundn\n", i, " is were found")
+print(o, " os were found\n", u, "us were found")
+print("total vowels found is, ", (a+e+i+o+u))
