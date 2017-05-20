@@ -8,6 +8,6 @@ if original.isalpha():
         newstring = string + pyg
     else:
         newstring = string[1:] + first + pyg
-        print(newstring)
+    print(newstring)
 else:
     print("failed")
