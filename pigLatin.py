@@ -1,9 +1,13 @@
 # program to take first constonant, move it to the end and add "ay"
-string = "enter string"
-appends = []
-vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
-if string[0] in "aeiou":
-    newstring = string + "-ay"
+original = input("enter string")
+pyg = "ay"
+if original.isAlpha():
+    string = original.lower()
+    first = string[0]
+    if first in "aeiou":
+        newstring = string + pyg
+    else:
+        newstring = string[1:] + first + pyg
+        print(newstring)
 else:
-    newstring = string[1:] + string[0] + "ay"
-print(newstring)
+    print("failed")
